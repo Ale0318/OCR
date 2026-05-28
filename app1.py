@@ -20,31 +20,36 @@ st.markdown("""
 <style>
 
 .stApp {
-    background: linear-gradient(135deg, #ede9fe, #d8b4fe, #c4b5fd);
+    background: linear-gradient(135deg, #fff4b8, #ffe66d, #ffd43b);
     background-attachment: fixed;
 }
 
 h1, h2, h3 {
-    color: #2d1b4e;
+    color: #5c3d00;
+}
+
+p, label, div {
+    color: #4a3400;
 }
 
 [data-testid="stSidebar"] {
-    background: rgba(255,255,255,0.75);
+    background: rgba(255,255,255,0.78);
     backdrop-filter: blur(12px);
 }
 
 .stButton>button {
-    background-color: #7b2cbf;
-    color: white;
+    background-color: #ffb703;
+    color: #3a2a00;
     border-radius: 12px;
     border: none;
     padding: 0.6rem 1rem;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .stButton>button:hover {
-    background-color: #9d4edd;
-    color: white;
+    background-color: #ffca3a;
+    color: #3a2a00;
 }
 
 textarea, input {
